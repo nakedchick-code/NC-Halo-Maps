@@ -1,5 +1,28 @@
 [
   {
+    "id": 398623955,
+    "tag": "CE-LIBERTY-DIVISON-FALLS",
+    "name": "[CE] LIBERTY-DIVISION-FALLS",
+    "body": "LIBERTY DIVISION FALLS FOR HALO CE",
+    "prerelease": false,
+    "published_at": "2026-09-28T21:04:45Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-DIVISON-FALLS",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-DIVISON-FALLS/division.falls.png",
+    "assets": [
+      {
+        "name": "liberty_division_falls.7z",
+        "size": 69704937,
+        "size_human": "66 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-DIVISON-FALLS/liberty_division_falls.7z",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 394894655,
     "tag": "PC-LIBERTY-FOUNDRY",
     "name": "[PC] LIBERTY-FOUNDRY",
