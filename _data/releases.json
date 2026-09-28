@@ -1,5 +1,28 @@
 [
   {
+    "id": 398680927,
+    "tag": "CE-LIBERTY-SUDDEN-DEATH",
+    "name": "[CE] LIBERTY-SUDDEN-DEATH",
+    "body": "LIBERTY SUDDEN DEATH FOR HALO CE",
+    "prerelease": false,
+    "published_at": "2026-09-28T22:39:50Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-SUDDEN-DEATH",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SUDDEN-DEATH/sudden.death.png",
+    "assets": [
+      {
+        "name": "liberty_sudden_death.7z",
+        "size": 50296638,
+        "size_human": "48 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SUDDEN-DEATH/liberty_sudden_death.7z",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 398623955,
     "tag": "CE-LIBERTY-DIVISON-FALLS",
     "name": "[CE] LIBERTY-DIVISION-FALLS",
