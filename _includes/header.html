@@ -9,23 +9,34 @@
         <i aria-hidden="true" class="fas fa-compass brand-icon"></i>
         <div class="brand-text">
             <h1>{{ site.title }}</h1>
-            <p class="brand-tagline">Custom maps for Halo: PC/CE</p>
+            <p class="brand-tagline">{{ site.tagline | default: 'Custom maps for Halo: PC/CE' }}</p>
         </div>
     </div>
+    <button aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle"
+        type="button">
+        <i aria-hidden="true" class="fas fa-bars"></i>
+    </button>
 </div>
 
-<div class="nav-toggle">
-    <button aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
-</div>
-
-<nav aria-label="Main navigation" class="main-nav">
+<nav aria-label="Main navigation" class="main-nav" id="main-nav">
     <ul>
-        <li><a class="nav-link {% if page.url == '/' or page.url == '/index' or page.url == '/index.html' %}active{% endif %}"
-                href="{{ site.baseurl }}/">Home</a></li>
-        <li><a class="nav-link {% if page.url == '/maps' or page.url == '/maps.html' %}active{% endif %}"
-                href="{{ site.baseurl }}/maps">Maps</a></li>
-        <li><a class="nav-link" href="{{ site.links.releases }}" rel="noopener" target="_blank">
-                Releases <i class="fas fa-arrow-up-right-from-square fa-xs"></i>
-            </a></li>
+        <li>
+            <a class="nav-link {% if page.url == '/' or page.url == '/index' or page.url == '/index.html' %}active{% endif %}"
+                href="{{ site.baseurl }}/">
+                <i aria-hidden="true" class="fas fa-house"></i> Home
+            </a>
+        </li>
+        <li>
+            <a class="nav-link {% if page.url == '/maps' or page.url == '/maps/' or page.url == '/maps.html' %}active{% endif %}"
+                href="{{ site.baseurl }}/maps">
+                <i aria-hidden="true" class="fas fa-map-location-dot"></i> Maps
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="{{ site.links.releases }}" rel="noopener" target="_blank">
+                <i aria-hidden="true" class="fas fa-tag"></i> Releases
+                <i aria-hidden="true" class="fas fa-arrow-up-right-from-square fa-xs"></i>
+            </a>
+        </li>
     </ul>
 </nav>

@@ -4,15 +4,22 @@
 # .github/workflows/fetch-releases.yml - do not edit that file by hand.
 
 title: NC Halo Maps
+tagline: "Custom maps for Halo: PC/CE"
 description: Custom multiplayer maps for Halo Custom Edition, built by NakedChick.
 
 # Update these if a custom domain (CNAME file) is added later.
 url: "https://nakedchick-code.github.io"
 baseurl: "/NC-Halo-Maps"
 
+lang: en-GB
 locale: en_GB
 timezone: Etc/UTC
 site_scale: 0.65
+
+# jekyll-seo-tag options
+title_separator: "|"
+twitter:
+  card: summary_large_image
 
 author:
   name: NakedChick
@@ -28,6 +35,7 @@ links:
   releases: https://github.com/nakedchick-code/NC-Halo-Maps/releases
   new_release: https://github.com/nakedchick-code/NC-Halo-Maps/releases/new
   issues: https://github.com/nakedchick-code/NC-Halo-Maps/issues
+  profile: https://github.com/nakedchick-code
 
 sass:
   style: compressed
@@ -42,6 +50,16 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
+# Don't ship build/dev files to the generated site.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - run.bat
+  - vendor
+  - node_modules
 
 defaults:
   - scope:

@@ -52,8 +52,10 @@ Total downloads across every map, for the toolbar summary.
             <option value="downloads">Most downloaded</option>
         </select>
     </div>
-    <span class="map-count">{{ releases.size }} map{% if releases.size != 1 %}s{% endif %} published &middot; {{
-        site_total_downloads }} total download{% if site_total_downloads != 1 %}s{% endif %}</span>
+    <span aria-live="polite" class="map-count" id="map-count" role="status">
+        {{ releases.size }} map{% if releases.size != 1 %}s{% endif %} published &middot;
+        {{ site_total_downloads }} total download{% if site_total_downloads != 1 %}s{% endif %}
+    </span>
 </div>
 
 {% if releases.size > 0 %}
@@ -86,9 +88,9 @@ Total downloads across every map, for the toolbar summary.
         id="release-{{ release.id }}">
         <div class="map-thumb">
             {% if release.thumbnail %}
-            <img alt="{{ display_name }} preview" loading="lazy" src="{{ release.thumbnail }}">
+            <img alt="{{ display_name }} preview" decoding="async" loading="lazy" src="{{ release.thumbnail }}">
             {% else %}
-            <i class="fas fa-map"></i>
+            <i aria-hidden="true" class="fas fa-map"></i>
             {% endif %}
             {% if release.games.size > 0 %}
             <span class="badge badge-game badge-game-{{ release.games | first | downcase }}">
@@ -103,10 +105,10 @@ Total downloads across every map, for the toolbar summary.
         <div class="map-body">
             <h3>{{ display_name }}</h3>
             <p class="map-date">
-                <i class="fas fa-calendar"></i>
+                <i aria-hidden="true" class="fas fa-calendar"></i>
                 {{ release.published_at | date: "%d %b %Y" }}
                 <span class="map-downloads-count">
-                    <i class="fas fa-download"></i>
+                    <i aria-hidden="true" class="fas fa-download"></i>
                     {{ total_downloads }} download{% if total_downloads != 1 %}s{% endif %}
                 </span>
             </p>
@@ -117,34 +119,40 @@ Total downloads across every map, for the toolbar summary.
             <div class="map-downloads">
                 {% for asset in release.assets %}
                 <a class="download-btn" download href="{{ asset.browser_download_url }}">
-                    <i class="fas fa-download"></i>
+                    <i aria-hidden="true" class="fas fa-download"></i>
                     <span class="download-name">{{ asset.name }}</span>
                     <span class="download-size">{{ asset.size_human }}</span>
                 </a>
                 {% endfor %}
             </div>
             {% unless release.assets.size > 0 %}
-            <p class="no-assets"><i class="fas fa-triangle-exclamation"></i> No files attached to this release.</p>
+            <p class="no-assets" role="note">
+                <i aria-hidden="true" class="fas fa-triangle-exclamation"></i>
+                No files attached to this release.
+            </p>
             {% endunless %}
 
             <div class="map-links">
                 <a class="map-source-link" href="{{ release.html_url }}" rel="noopener" target="_blank">
-                    View full release notes on GitHub <i class="fas fa-arrow-up-right-from-square fa-xs"></i>
+                    View full release notes on GitHub
+                    <i aria-hidden="true" class="fas fa-arrow-up-right-from-square fa-xs"></i>
                 </a>
                 <button aria-label="Copy link to {{ display_name }}" class="copy-link-btn"
                     data-url="{{ site.url }}{{ site.baseurl }}/maps/#release-{{ release.id }}" type="button">
-                    <i class="fas fa-link"></i> <span class="copy-link-label">Copy link</span>
+                    <i aria-hidden="true" class="fas fa-link"></i>
+                    <span class="copy-link-label">Copy link</span>
                 </button>
             </div>
         </div>
     </article>
     {% endfor %}
 </div>
-<p class="empty-state search-empty" hidden><i class="fas fa-magnifying-glass"></i> No maps match your search.</p>
+<p class="empty-state search-empty" hidden><i aria-hidden="true" class="fas fa-magnifying-glass"></i> No maps match
+    your search.</p>
 <nav aria-label="Maps pagination" class="maps-pagination" id="maps-pagination"></nav>
 {% else %}
 <div class="empty-state">
-    <i class="fas fa-box-open"></i>
+    <i aria-hidden="true" class="fas fa-box-open"></i>
     <p>No maps published yet - check back soon!</p>
 </div>
 {% endif %}
@@ -183,6 +191,7 @@ Total downloads across every map, for the toolbar summary.
         top: 50%;
         transform: translateY(-50%);
         color: var(--text-muted);
+        pointer-events: none;
     }
 
     #map-search {

@@ -37,6 +37,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -91,7 +92,7 @@ jobs:
               }
 
               // Fallback: default game if no tag or bracket marker was found.
-              return [DEFAULT_GAME];
+              return [DEFAULT_GAME || 'CE'];
             }
 
             const IMAGE_RE = /\.(png|jpe?g|gif|webp)$/i;
@@ -131,12 +132,19 @@ jobs:
               // newest first
               .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
 
+            const serialized = JSON.stringify(data, null, 2) + '\n';
+
+            // Sanity-check: the JSON we're about to write must round-trip.
+            try {
+              JSON.parse(serialized);
+            } catch (err) {
+              core.setFailed(`Generated releases.json is not valid JSON: ${err.message}`);
+              return;
+            }
+
             const dataDir = path.join(process.env.GITHUB_WORKSPACE, '_data');
             fs.mkdirSync(dataDir, { recursive: true });
-            fs.writeFileSync(
-              path.join(dataDir, 'releases.json'),
-              JSON.stringify(data, null, 2) + '\n'
-            );
+            fs.writeFileSync(path.join(dataDir, 'releases.json'), serialized);
 
             core.info(`Wrote ${data.length} release(s) to _data/releases.json`);
 
