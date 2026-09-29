@@ -11,7 +11,16 @@
       "CE"
     ],
     "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-INFINITY/infinity.png",
-    "assets": []
+    "assets": [
+      {
+        "name": "liberty_infinity.rar",
+        "size": 90111823,
+        "size_human": "86 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-INFINITY/liberty_infinity.rar",
+        "content_type": "application/x-compressed"
+      }
+    ]
   },
   {
     "id": 398680927,
