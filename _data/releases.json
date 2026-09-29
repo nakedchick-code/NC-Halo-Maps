@@ -1,5 +1,28 @@
 [
   {
+    "id": 399294564,
+    "tag": "CE-LIBERTY-INFINITY",
+    "name": "[CE] LIBERTY-INFINITY",
+    "body": "LIBERTY INFINITY FOR HALO CE",
+    "prerelease": false,
+    "published_at": "2026-09-29T15:42:33Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-INFINITY",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-INFINITY/infinity.png",
+    "assets": [
+      {
+        "name": "liberty_infinity.rar",
+        "size": 90111823,
+        "size_human": "86 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-INFINITY/liberty_infinity.rar",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 398680927,
     "tag": "CE-LIBERTY-SUDDEN-DEATH",
     "name": "[CE] LIBERTY-SUDDEN-DEATH",
