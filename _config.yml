@@ -25,7 +25,6 @@ author:
   name: NakedChick
   url: https://github.com/nakedchick-code
 
-image: /assets/images/social-preview.png
 favicon: favicon.ico
 
 repository: nakedchick-code/NC-Halo-Maps
@@ -61,8 +60,14 @@ exclude:
   - vendor
   - node_modules
 
+# -----------------------------------------------------------------------------
+# Defaults
+# -----------------------------------------------------------------------------
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+      image:
+        path: /assets/images/social-preview.png
+        alt: "NC Halo Maps"

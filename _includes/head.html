@@ -5,24 +5,21 @@
 -->
 
 <meta charset="UTF-8">
-<meta content="width=device-width, initial-scale={{ site.site_scale | default: 1 }}, viewport-fit=cover" name="viewport">
+<meta content="width=device-width, initial-scale={{ site.site_scale | default: 1 }}, viewport-fit=cover"
+  name="viewport">
 <meta name="theme-color" content="#14100c">
 <meta name="color-scheme" content="dark">
 <meta name="author" content="{{ site.author.name | default: site.title }}">
 
-<!--
-  jekyll-seo-tag emits: <title>, <meta name="description">, canonical,
-  og:title/description/url/type/image/image:alt/site_name, twitter:card/
-  title/description/image, and JSON-LD.
--->
 {% seo %}
 
 <!-- favicon + touch icon -->
 {% if site.favicon %}
 <link href="{{ site.favicon | relative_url }}" rel="icon" type="image/x-icon">
 {% endif %}
-{% if site.image %}
-<link href="{{ site.image | relative_url }}" rel="apple-touch-icon">
+{% if page.image %}
+{% assign touch_icon = page.image.path | default: page.image %}
+<link href="{{ touch_icon | relative_url }}" rel="apple-touch-icon">
 {% endif %}
 
 <!-- preconnect hints for external resources -->
