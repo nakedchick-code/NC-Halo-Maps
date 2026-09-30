@@ -29,18 +29,20 @@ The Maps page does **not** call the GitHub API from the browser. Instead:
 3. Visitors' browsers only ever load a static, pre-built page - zero runtime API calls,
    so there's no rate-limit risk no matter how much traffic the site gets.
 
+### Notes for NakedChick:
+
 **To publish a new map:** just create a new [GitHub Release](../../releases/new) with the
 map's `.zip` (or other files) attached. Give it a title that starts with `[PC]` or `[CE]`,
 for example `[CE] Liberty Hangar`, so the site knows which game the map is for. Within a
 few hours (or immediately if you run the "Fetch Releases Data" workflow manually from the
-Actions tab) it'll appear on the Maps page.
+Actions tab), it'll appear on the Maps page.
 
 **Map Thumbnails:**
 
 The site shows them in a `16:9` box on both the maps page and the home page's latest releases section.
 So make your thumbnail `16:9` too.
 
-The best size is `1280x720`. Up to `1920x1080` is fine, but no bigger since it displays small.
+The best size is `1280x720`. Up to `1920x1080` is fine, but no bigger, since it displays small.
 If the image is square or `4:3`, it will be cropped to fit, so keep the main part of the screenshot in the middle.
 
 Keep file size small, under a few hundred KB if you can. The workflow accepts `PNG`, `JPG`, `JPEG`, `GIF`, or `WEBP`.
@@ -56,7 +58,7 @@ If you attach it as an asset, the site uses it as the thumbnail and does not sho
 
 All content in this repository, including source code, images, and documentation, is proprietary. You may not copy,
 redistribute, or use any assets without explicit prior written permission. This does not apply to the map files
-themselves, which are distributed via GitHub Releases for download and use with Halo: Custom Edition, and Halo: Combat Evolved.
+themselves, which are distributed via GitHub Releases for download and use with Halo: Custom Edition and Halo: Combat Evolved.
 
 For the full legal terms, please read the [LICENSE](LICENSE) file.
 
