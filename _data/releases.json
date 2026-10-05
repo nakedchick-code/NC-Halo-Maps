@@ -1,5 +1,28 @@
 [
   {
+    "id": 404152706,
+    "tag": "CE-LIBERTY-SCARY-GULCH",
+    "name": "[CE] LIBERTY-SCARY-GULCH",
+    "body": "LIBERTY SCARY GULCH FOR HALO CE\r\nHALLOWEEN PUMPKIN BIPEDS\r\nNEW VEHICLES ",
+    "prerelease": false,
+    "published_at": "2026-10-05T22:54:16Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-SCARY-GULCH",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SCARY-GULCH/scary.gulch.png",
+    "assets": [
+      {
+        "name": "Liberty_Scary_Gulch.rar",
+        "size": 33489885,
+        "size_human": "32 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SCARY-GULCH/Liberty_Scary_Gulch.rar",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 401172430,
     "tag": "CE-LIBERTY-DENIAL",
     "name": "[CE] LIBERTY-DENIAL",
@@ -62,7 +85,7 @@
         "name": "liberty_ivory_tower.rar",
         "size": 67936662,
         "size_human": "65 MB",
-        "download_count": 3,
+        "download_count": 4,
         "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-Liberty-Ivory-Tower/liberty_ivory_tower.rar",
         "content_type": "application/x-compressed"
       }
@@ -108,7 +131,7 @@
         "name": "liberty_sudden_death.7z",
         "size": 50296638,
         "size_human": "48 MB",
-        "download_count": 2,
+        "download_count": 3,
         "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SUDDEN-DEATH/liberty_sudden_death.7z",
         "content_type": "application/x-compressed"
       }
