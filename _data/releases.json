@@ -1,5 +1,28 @@
 [
   {
+    "id": 405173576,
+    "tag": "CE-LIBERTY-SPOOKY-HEMOASIS",
+    "name": "[CE] LIBERTY-SPOOKY-HEMOASIS",
+    "body": "LIBERTY SPOOKY HEMOASIS FOR HALO CE",
+    "prerelease": false,
+    "published_at": "2026-10-06T21:58:51Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-SPOOKY-HEMOASIS",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SPOOKY-HEMOASIS/spooky.hemoasis.png",
+    "assets": [
+      {
+        "name": "liberty_spooky_hemoasis.rar",
+        "size": 31364294,
+        "size_human": "30 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SPOOKY-HEMOASIS/liberty_spooky_hemoasis.rar",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 404152706,
     "tag": "CE-LIBERTY-SCARY-GULCH",
     "name": "[CE] LIBERTY-SCARY-GULCH",
