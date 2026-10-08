@@ -1,5 +1,28 @@
 [
   {
+    "id": 406308026,
+    "tag": "CE-LIBERTY-SPOOKY-BIGASS",
+    "name": "[CE] LIBERTY-SPOOKY-BIGASS",
+    "body": "LIBERTY SPOOKY BIGASS FOR HALO CE",
+    "prerelease": false,
+    "published_at": "2026-10-08T01:19:37Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-SPOOKY-BIGASS",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SPOOKY-BIGASS/spooky.bigass.png",
+    "assets": [
+      {
+        "name": "Liberty_Spooky_Bigass.rar",
+        "size": 78186239,
+        "size_human": "75 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SPOOKY-BIGASS/Liberty_Spooky_Bigass.rar",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 405173576,
     "tag": "CE-LIBERTY-SPOOKY-HEMOASIS",
     "name": "[CE] LIBERTY-SPOOKY-HEMOASIS",
