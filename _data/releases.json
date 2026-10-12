@@ -1,5 +1,28 @@
 [
   {
+    "id": 410708577,
+    "tag": "CE-LIBERTY-BIGASS-FARM",
+    "name": "[CE] LIBERTY-BIGASS-FARM",
+    "body": "LIBERTY BIGASS FARM FOR HALO CE\r\n\r\n",
+    "prerelease": false,
+    "published_at": "2026-10-12T14:45:41Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-BIGASS-FARM",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-BIGASS-FARM/bigassfarm.png",
+    "assets": [
+      {
+        "name": "liberty_bigass_farm.rar",
+        "size": 137283367,
+        "size_human": "131 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-BIGASS-FARM/liberty_bigass_farm.rar",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 406308026,
     "tag": "CE-LIBERTY-SPOOKY-BIGASS",
     "name": "[CE] LIBERTY-SPOOKY-BIGASS",
