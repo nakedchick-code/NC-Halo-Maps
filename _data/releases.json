@@ -1,5 +1,19 @@
 [
   {
+    "id": 413698269,
+    "tag": "CE-CAMO-GULCH",
+    "name": "[CE] CAMO-GULCH",
+    "body": "CE CAMO GULCH FOR HALO CE\r\n\r\nALL VEHICLES IN CAMO MODE",
+    "prerelease": false,
+    "published_at": "2026-10-15T10:54:12Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-CAMO-GULCH",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": null,
+    "assets": []
+  },
+  {
     "id": 410708577,
     "tag": "CE-LIBERTY-BIGASS-FARM",
     "name": "[CE] LIBERTY-BIGASS-FARM",
