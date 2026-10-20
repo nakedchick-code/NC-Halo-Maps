@@ -1,5 +1,28 @@
 [
   {
+    "id": 418682395,
+    "tag": "CE-LIBERTY-OMINOUS",
+    "name": "[CE] LIBERTY-OMINOUS",
+    "body": "LIBERTY OMINOUS FOR HALO CE",
+    "prerelease": false,
+    "published_at": "2026-10-20T17:36:07Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-LIBERTY-OMINOUS",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-OMINOUS/ominous.png",
+    "assets": [
+      {
+        "name": "liberty_ominous.rar",
+        "size": 11763886,
+        "size_human": "11 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-OMINOUS/liberty_ominous.rar",
+        "content_type": "application/x-compressed"
+      }
+    ]
+  },
+  {
     "id": 413698269,
     "tag": "CE-CAMO-GULCH",
     "name": "[CE] CAMO-GULCH",
