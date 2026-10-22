@@ -131,7 +131,7 @@
         "name": "Liberty_Scary_Gulch.rar",
         "size": 33489885,
         "size_human": "32 MB",
-        "download_count": 2,
+        "download_count": 3,
         "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-LIBERTY-SCARY-GULCH/Liberty_Scary_Gulch.rar",
         "content_type": "application/x-compressed"
       }
@@ -356,16 +356,7 @@
       "CE"
     ],
     "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-SUMMER-ICE/summer.ice.png",
-    "assets": [
-      {
-        "name": "Summer_Ice.rar",
-        "size": 21812950,
-        "size_human": "21 MB",
-        "download_count": 2,
-        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-SUMMER-ICE/Summer_Ice.rar",
-        "content_type": "application/x-compressed"
-      }
-    ]
+    "assets": []
   },
   {
     "id": 394837125,
@@ -384,7 +375,7 @@
         "name": "Stinger_Overwatch.rar",
         "size": 121313147,
         "size_human": "116 MB",
-        "download_count": 0,
+        "download_count": 1,
         "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-STINGER-OVERWATCH/Stinger_Overwatch.rar",
         "content_type": "application/x-compressed"
       }
