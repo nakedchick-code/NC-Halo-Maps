@@ -356,7 +356,16 @@
       "CE"
     ],
     "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-SUMMER-ICE/summer.ice.png",
-    "assets": []
+    "assets": [
+      {
+        "name": "Summer_Ice.rar",
+        "size": 21807825,
+        "size_human": "21 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-SUMMER-ICE/Summer_Ice.rar",
+        "content_type": "application/octet-stream"
+      }
+    ]
   },
   {
     "id": 394837125,
