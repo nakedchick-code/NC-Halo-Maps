@@ -1,5 +1,28 @@
 [
   {
+    "id": 446475514,
+    "tag": "CE-Sponge-Bob",
+    "name": "{CE} Sponge Bob",
+    "body": "CE Sponge Bob map for Custom edition",
+    "prerelease": false,
+    "published_at": "2026-11-16T00:24:14Z",
+    "html_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/tag/CE-Sponge-Bob",
+    "games": [
+      "CE"
+    ],
+    "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-Sponge-Bob/spongebob.jpg",
+    "assets": [
+      {
+        "name": "sponge_bob.7z",
+        "size": 30074663,
+        "size_human": "29 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-Sponge-Bob/sponge_bob.7z",
+        "content_type": "application/octet-stream"
+      }
+    ]
+  },
+  {
     "id": 418682395,
     "tag": "CE-LIBERTY-OMINOUS",
     "name": "[CE] LIBERTY-OMINOUS",
