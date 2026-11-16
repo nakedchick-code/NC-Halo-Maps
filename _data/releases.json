@@ -11,7 +11,16 @@
       "CE"
     ],
     "thumbnail": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-Sponge-Bob/spongebob.jpg",
-    "assets": []
+    "assets": [
+      {
+        "name": "sponge_bob.7z",
+        "size": 30011312,
+        "size_human": "29 MB",
+        "download_count": 0,
+        "browser_download_url": "https://github.com/nakedchick-code/NC-Halo-Maps/releases/download/CE-Sponge-Bob/sponge_bob.7z",
+        "content_type": "application/octet-stream"
+      }
+    ]
   },
   {
     "id": 418682395,
